@@ -45,7 +45,7 @@
 		<br>
         <div style="text-align: right;">
 
-            <a href= "dashboard.html" class="btn btn-primary btn-sm" style="color: red;">Logout</button></a>
+            <a href= "index.html" class="btn btn-primary btn-sm" style="color: red;">Logout</button></a>
     
         </div>
        
