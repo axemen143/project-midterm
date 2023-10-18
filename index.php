@@ -41,9 +41,14 @@
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+    	<p>Welcome! <strong><?php echo $_SESSION['username']; ?></strong></p>
 		<br>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+        <div style="text-align: right;">
+
+            <a href= "dashboard.html" class="btn btn-primary btn-sm" style="color: red;">Logout</button></a>
+    
+        </div>
+       
     <?php endif ?>
 </div>
 </body>
